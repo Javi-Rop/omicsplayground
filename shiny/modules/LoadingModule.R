@@ -32,7 +32,7 @@ LoadingUI <- function(id) {
 }
 
 LoadingModule <- function(input, output, session, 
-                          max.limits=c("samples"=1000,"comparisons"=20,"genes"=19999),
+                          max.limits=c("samples"=1000,"comparisons"=20,"genes"=199999),
                           authentication="none")
 {
     ns <- session$ns ## NAMESPACE
